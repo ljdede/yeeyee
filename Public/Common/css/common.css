@@ -1,0 +1,256 @@
+/*
+	总体框架
+*/
+	*{
+		font-family:"微软雅黑";
+	}
+	html {
+		background-image: url("/Public/Common/img/frame/bg.jpg");
+		background-attachment:fixed;
+	}
+
+/*
+	InfoPlatform_header css
+*/
+	#InfoPlatform_header{
+		width: 100%;
+		height: 60px;
+		background-color: #000;
+		position: fixed;
+		top: 0px;
+		z-index: 99;
+	}
+		#InfoPlatform_header #logoBox{
+			width: 200px;
+			height: inherit;
+			position: fixed;
+			right: 65%;
+			text-align: right;
+			line-height: 60px;
+			font-size: 24px;
+		}
+			#InfoPlatform_header #logoBox a {
+				text-decoration: none;
+				color: #fff;
+			}
+			#InfoPlatform_header #logoBox a:hover {
+				color: #F0B80F;
+			}
+				#InfoPlatform_header #logoBox a img {
+					margin-right: 10px;
+				}
+		#InfoPlatform_header #searchBox{
+			width: 400px;
+			height: inherit;
+			position: fixed;
+			left: 38%;
+			line-height: 60px;
+		}
+			#InfoPlatform_header #searchBox input{
+				width: 300px;
+				height: 40px;
+				float: left;
+				margin: 10px 10px 0 0;
+			}
+			#InfoPlatform_header #searchBox button{
+				float: left;
+				width: 80px;
+				height: 40px;
+				margin: 10px 0 0 0;
+			}
+
+		#InfoPlatform_header #userBox{
+			width: 200px;
+			height: inherit;
+			/*background-color: #683;*/
+			position: fixed;
+			right: 0;
+
+		}
+			#InfoPlatform_header #userBox #signup{
+				width: 100px;
+				height: inherit;
+				/*background-color: #831;*/
+				float: left;
+				line-height: 60px;
+				font-size: 18px;
+				text-align: center;
+			}
+			#InfoPlatform_header #userBox #login{
+				width: 100px;
+				height: inherit;
+				/*background-color: #831;*/
+				float: left;
+				line-height: 60px;
+				font-size: 18px;
+				text-align: center;
+			}
+			#InfoPlatform_header #userBox a{
+				text-decoration: none;
+				color: #fff;
+			}
+			#InfoPlatform_header #userBox a:hover{
+				color: #F0B80F;
+			}
+			#InfoPlatform_header #userBox #userimg{
+				width: 60px;
+				height: inherit;
+				/*background-color: #831;*/
+				float: right;
+				line-height: 60px;
+				font-size: 18px;
+				text-align: center;
+				padding: 15px;
+				display: none;
+			}
+				#InfoPlatform_header #userBox #userimg img{
+					width: 100%;
+					height: 100%;
+				}
+			#InfoPlatform_header #userBox #username{
+				/*width: 100px;*/
+				height: inherit;
+				/*background-color: #831;*/
+				float: right;
+				line-height: 60px;
+				font-size: 18px;
+				text-align: center;
+				margin-right: 10px;
+				display: none;
+			}
+
+
+/*
+	特殊的modal
+*/
+	#userBox_loginBox .modal-dialog{
+		width: 300px;
+	}
+	#userBox_loginBox .input-group{
+		margin-bottom:10px; 
+	}
+	#userBox_loginBox .modal-footer{
+		margin-top: 0;
+	}
+		#userBox_loginBox .alert{
+			margin-bottom: 0;
+		}
+
+	#userBox_manageBox .modal-dialog{
+		width: 300px;
+	}
+	#userBox_manageBox .modal-body{
+		text-align: center;
+	}
+	#userBox_manageBox .input-group{
+		margin-bottom:10px; 
+	}
+	#userBox_manageBox .modal-footer{
+		margin-top: 0;
+	}
+		#userBox_manageBox .alert{
+			margin-top: 15px;
+			margin-bottom: 0;
+		}
+
+
+
+/*
+	InfoPlatform_mainLeft css
+*/
+	#InfoPlatform_mainLeft{
+		width: 350px;
+		/*height: 800px;*/
+		/*background-color: #334;*/
+		position: fixed;
+		top: 70px;
+		right: 65%;
+		margin-bottom: 40px;
+	}
+
+/*
+	InfoPlatform_mainRight css
+*/
+	#InfoPlatform_mainRight{
+		width: 650px;
+		/*height: 200px;*/
+		/*background-color: #334;*/
+		position: absolute;
+		top: 70px;
+		left: 38%;
+		margin-bottom: 30px;
+	}
+
+/*
+	InfoPlatform_footer css
+*/
+	#InfoPlatform_footer{
+		width: 100%;
+		height: 30px;
+		background-color: #000;
+		position: fixed;
+		bottom: 0px;
+		z-index: 99;
+		/*display: none;*/
+	}
+		#InfoPlatform_footer #aboutBox{
+			width: 350px;
+			height: 30px;
+			/*background-color: #334;*/
+			position: fixed;
+			bottom: 0px;
+			right: 65%;
+
+			text-align: right;
+			line-height: 30px;
+		}
+			#InfoPlatform_footer #aboutBox ul{
+				list-style: none;
+			}
+				#InfoPlatform_footer #aboutBox ul li{
+					float: right;
+					margin-left: 10px;
+				}
+				#InfoPlatform_footer #aboutBox ul li a{
+					text-decoration: none;
+					color: #fff;
+				}
+				#InfoPlatform_footer #aboutBox ul li a:hover{
+					color: #F0B80F;
+				}
+
+		#InfoPlatform_footer #copyrightBox{
+			width: 650px;
+			height: 30px;
+			/*background-color: #334;*/
+			position: fixed;
+			bottom: 0px;
+			left: 38%;
+
+			text-align: left;
+			line-height: 30px;
+
+			color: #fff;
+		}
+
+/*返回顶部*/
+#backToTop {
+    display: none;
+    line-height: 45px;
+    padding: 28px 28px 28px 28px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    bottom: 36px;
+    cursor: pointer;
+	font-size: 45px;
+	background-image: url("/Public/Common/img/frame/backToTop.gif");
+	background-repeat: no-repeat;
+	background-position: 12px 12px;
+} 
+#backToTop:hover {
+	background-color: #666;
+}

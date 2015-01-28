@@ -1,0 +1,11 @@
+.page_creator {}
+	
+	.page_creator .list-block {
+		
+	}
+		.page_creator textarea {
+			height: 200px;
+		}
+		.page_creator .textInput {
+			text-align: right;
+		}

@@ -1,0 +1,756 @@
+/*
+	InfoPlatform_mainLeft css
+*/
+	#InfoPlatform_mainLeft{
+	}
+	/*
+		#InfoPlatform_mainLeft #panel
+	*/
+		#InfoPlatform_mainLeft #panel{
+			width: 100%;
+			height: 498px;
+			border: solid #000 1px;
+			/*background-color: #223;*/
+		}
+			#InfoPlatform_mainLeft #panel .title{
+				width: 100%;
+				height: 48px;
+				border-bottom: solid #aaa 1px;
+				/*background-color: #654;*/
+				line-height: 50px;
+				font-size: 24px;
+				text-align: center;
+			}
+			#InfoPlatform_mainLeft #panel .header{
+				width: 100%;
+				height: 50px;
+				border-bottom: solid #aaa 1px;
+				/*background-color: #456;*/
+			}
+				#InfoPlatform_mainLeft #panel .header ul{
+					width: 100%;
+					height: 49px;
+					padding-left: 0px;
+					list-style: none;
+					/*background-color: #229;*/
+					text-align: center;
+				}
+				#InfoPlatform_mainLeft #panel .header ul li{
+					width: 80px;
+					height: 49px;
+					line-height: 50px;
+					float: left;
+					margin-left: 26px;
+				}
+					#InfoPlatform_mainLeft #panel .header ul li a{
+						text-decoration: none;
+						color: #000;
+					}
+					#InfoPlatform_mainLeft #panel .header ul li a:hover{
+						color: #6699FF;
+					}
+					#InfoPlatform_mainLeft #panel .header ul li .active{
+						color: #6699FF;
+					}
+			#InfoPlatform_mainLeft #panel .body{
+				width: 100%;
+				height: 400px;
+				/*background-color: #546;*/
+			}
+				#InfoPlatform_mainLeft #panel .body ul{
+					width: 100%;
+					height: 400px;
+					padding: 0;
+					list-style: none;
+				}
+					#InfoPlatform_mainLeft #panel .body ul li{
+						width: 40%;
+						height: 50px;
+						/*background-color: #322;*/
+						float: left;
+						line-height: 50px;
+						margin-left: 30px;
+					}
+						#InfoPlatform_mainLeft #panel .body ul li a{
+							text-decoration: none;
+							color: #000;
+						}
+						#InfoPlatform_mainLeft #panel .body ul li a:hover{
+							color: #6699FF;
+						}
+						#InfoPlatform_mainLeft #panel .body ul li .active{
+							color: #6699FF;
+						}
+							#InfoPlatform_mainLeft #panel .body ul li a span{
+								color: #aaa;
+							}
+	/*
+		...#InfoPlatform_mainLeft #panel
+	*/
+	/*
+		#InfoPlatform_mainLeft #contactPanel
+	*/
+		#InfoPlatform_mainLeft #contactPanel{
+			width: 100%;
+			height: 588px;
+			padding: 5px;
+			border: solid #000 1px;
+		}
+			#InfoPlatform_mainLeft #contactPanel .alertShadow{
+				box-shadow: 0 0 8px rgba(191, 84, 46, 1);
+			}
+		#InfoPlatform_mainLeft #contactPanel table{
+			width: 100%;
+			height: 100%;
+		}
+			#InfoPlatform_mainLeft #contactPanel .userBox{
+				width: 100%;
+				height: 53px;
+				border-bottom: solid #ccc 2px;
+				/*background-color: #336;*/
+			}
+				#InfoPlatform_mainLeft #contactPanel .userBox .userImg{
+					width: 50px;
+					height: 50px;
+					/*background-color: #836;*/
+					float: left;
+				}
+					#InfoPlatform_mainLeft #contactPanel .userBox .userImg img{
+						width: 100%;
+						height: 100%;
+					}
+				#InfoPlatform_mainLeft #contactPanel .userBox .userName{
+					width: 79%;
+					height: 25px;
+					/*background-color: #631;*/
+					float: left;
+					line-height: 25px;
+					color: #333;
+					font-weight: bold;
+					margin-left: 5px;
+				}
+				#InfoPlatform_mainLeft #contactPanel .userBox .userMessage{
+					width: 20%;
+					height: 25px;
+					/*background-color: #231;*/
+					float: left;
+					line-height: 25px;
+					margin-left: 5px;
+				}
+					#InfoPlatform_mainLeft #contactPanel .userBox .userMessage span{
+						margin-top: 4px;
+						cursor: pointer;
+					}
+			#InfoPlatform_mainLeft #contactPanel .infoBox{
+				width: 100%;
+				/*height: 110px;*/
+				border-bottom: solid #ccc 2px;
+				/*background-color: #136;*/
+			}
+				#InfoPlatform_mainLeft #contactPanel .infoBox ul{
+					width: 100%;
+					list-style: none;
+					padding: 0;
+					margin: 0;
+				}
+					#InfoPlatform_mainLeft #contactPanel .infoBox ul li{
+						width: 100%;
+						/*height: 25px;*/
+					}
+						#InfoPlatform_mainLeft #contactPanel .infoBox ul li .title{
+							color: #333;
+							font-weight: bold;
+							padding-right: 20px;
+						}
+
+			#InfoPlatform_mainLeft #contactPanel .contentBox{
+				width: 100%;
+				/*height: 130px;*/
+				/*background-color: #836;*/
+				padding-bottom: 5px;
+				border-bottom: solid #ccc 2px;
+			}
+				#InfoPlatform_mainLeft #contactPanel .contentBox .title{
+					color: #333;
+					font-weight: bold;
+					padding-right: 20px;
+				}
+					#InfoPlatform_mainLeft #contactPanel .contentBox .more a{
+						color: #000;
+						text-decoration: none;
+					}
+					#InfoPlatform_mainLeft #contactPanel .contentBox .more a:hover{
+						color: #6699FF;
+					}
+
+			#InfoPlatform_mainLeft #contactPanel .tipsBox{
+				width: 100%;
+				/*height: 50px;*/
+				/*background-color: #831;*/
+				/*border-bottom: solid #ccc 2px;*/
+			}
+				#InfoPlatform_mainLeft #contactPanel .tipsBox .title{
+					color: #333;
+					font-weight: bold;
+					padding-right: 20px;
+				}
+				#InfoPlatform_mainLeft #contactPanel .tipsBox .text{
+					color: #ff6611;
+				}
+
+			#InfoPlatform_mainLeft #contactPanel .profileBox{
+				width: 100%;
+				/*height: 100%;*/
+				/*background-color: #631;*/
+				padding-top: 5px;
+				border-bottom: solid #ccc 2px;
+				overflow: auto;
+			}
+				#InfoPlatform_mainLeft #contactPanel .profileBox .input-group{
+					margin-bottom: 5px;
+
+				}
+					#InfoPlatform_mainLeft #contactPanel .profileBox .input-group .input-group_title{
+						width: 25%;
+						text-align: right;
+					}
+					#InfoPlatform_mainLeft #contactPanel .profileBox .input-group .alert-info{
+						cursor: pointer;
+					}
+
+			#InfoPlatform_mainLeft #contactPanel .controllerBox{
+				width: 100%;
+				height: 30px;
+				text-align: right;
+				/*background-color: #231;*/
+			}
+	/*
+		...#InfoPlatform_mainLeft #contactPanel
+	*/
+	
+/*
+	InfoPlatform_mainRight css
+*/
+	#InfoPlatform_mainRight{
+	}
+		#InfoPlatform_mainRight .infoStream{
+			width: 100%;
+			/*height: 199px;*/
+			border: solid #000 1px;
+			/*background-color: #332;*/
+			margin: 0 0 10px 0;
+		}
+		#InfoPlatform_mainRight .creator{
+			/*height: 317px;*/
+			padding-bottom: 5px;
+		}
+			#InfoPlatform_mainRight .creator .alertShadow{
+				box-shadow: 0 0 8px rgba(191, 84, 46, 1);
+			}
+			#InfoPlatform_mainRight .creator .titleBox{
+				width: 100%;
+				height: 65px;
+				/*background-color: #322;*/
+				line-height: 60px;
+				padding: 10px 10px 0 10px;
+			}
+				#InfoPlatform_mainRight .creator .titleBox input{
+					height: 50px;
+				}
+				#InfoPlatform_mainRight .creator .titleBox #titleBox_title{
+					width: 100%;
+					float: left;
+				}
+				#InfoPlatform_mainRight .creator .titleBox #titleBox_price{
+					width: 30%;
+					float: right;
+				}
+			#InfoPlatform_mainRight .creator .textBox{
+				width: 100%;
+				/*height: 150px;*/
+				/*background-color: #878;*/
+				padding: 5px 10px 5px 10px;
+			}
+				#InfoPlatform_mainRight .creator .textBox #textBox_text{
+					height: 100%;
+				}
+			#InfoPlatform_mainRight .creator .optionBox{
+				width: 100%;
+				height: 100px;
+				padding: 5px 0 5px 10px;
+				/*background-color: #997;*/
+				/*float: left;*/
+			}
+				#InfoPlatform_mainRight .creator .optionBox .pictureBox{
+					width: 30%;
+					height: 85px;
+					float: left;
+					line-height: 73px;
+					text-align: center;
+					border: solid #ccc 1px;
+					padding: 5px;
+				}
+					#InfoPlatform_mainRight .creator .optionBox .pictureBox  > a{
+						text-decoration: none;
+						color: #000;
+						padding:30px 0 30px 0;
+					}
+					#InfoPlatform_mainRight .creator .optionBox .pictureBox a:hover{
+						color: #6699FF;
+					}
+					#InfoPlatform_mainRight .creator .optionBox .pictureBox table{
+						width: 100%;
+						height: 100%;
+					}
+						#InfoPlatform_mainRight .creator .optionBox .pictureBox table td{
+							padding: 0;
+						}
+						#InfoPlatform_mainRight .creator .optionBox .pictureBox table img{
+							/**/
+							/*width: 100px;*/
+							/*小于等于73px*/
+							/*height: inherit;	*/
+							height: 73px;
+							/*width: auto;*/
+						}
+						#InfoPlatform_mainRight .creator .optionBox .pictureBox  table a{
+							text-decoration: none;
+							color: #000;
+							padding:10px;
+
+						}
+						#InfoPlatform_mainRight .creator .optionBox .pictureBox a:hover{
+							color: #6699FF;
+						}
+
+					#InfoPlatform_mainRight .creator form .dz-remove{
+						/*width: 100px;*/
+						height: 40px;
+						line-height: 30px;
+					}
+				#InfoPlatform_mainRight .creator .optionBox .detailBox{
+					width: 48.5%;
+					height: 85px;
+					float: left;
+				}
+					#InfoPlatform_mainRight .creator .optionBox .detailBox .categoryBox{
+						width: 100%;
+						height: 40px;
+						float: left;
+						/*background-color: #258;*/
+					}
+						#InfoPlatform_mainRight .creator .optionBox .detailBox .categoryBox .alertColor{
+							color: #CC0033;
+						}
+						#InfoPlatform_mainRight .creator .optionBox .detailBox .categoryBox .header{
+							width: 33%;
+							height: inherit;
+							/*background-color: #992;*/
+							float: left;
+							line-height: 40px;
+							text-align: right;
+						}
+						#InfoPlatform_mainRight .creator .optionBox .detailBox .categoryBox .body{
+							width: 67%;
+							height: inherit;
+							/*background-color: #996;*/
+							float: left;
+						}
+							#InfoPlatform_mainRight .creator .optionBox .detailBox .categoryBox .body .category_1{
+								width: 50%;
+								height: inherit;
+								line-height: 40px;
+								text-align: center;
+								float: left;
+							}
+								#InfoPlatform_mainRight .creator .optionBox .detailBox .categoryBox .body .category_1 .dropdown > a{
+									text-decoration: none;
+									/*color: #000;*/
+								}
+								#InfoPlatform_mainRight .creator .optionBox .detailBox .categoryBox .body .category_1 .dropdown > a:hover{
+									color: #333;
+								}
+								
+
+							#InfoPlatform_mainRight .creator .optionBox .detailBox .categoryBox .body .category_2{
+								width: 50%;
+								height: inherit;
+								line-height: 40px;
+								text-align: center;
+								float: left;
+							}
+								#InfoPlatform_mainRight .creator .optionBox .detailBox .categoryBox .body .category_2 .dropdown > a{
+									text-decoration: none;
+									/*color: #000;*/
+								}
+								#InfoPlatform_mainRight .creator .optionBox .detailBox .categoryBox .body .category_2 .dropdown > a:hover{
+									color: #333;
+								}
+									#InfoPlatform_mainRight .creator .optionBox .detailBox .categoryBox .body .dropdown-menu li{
+										text-align: left;
+									}
+
+					#InfoPlatform_mainRight .creator .optionBox .detailBox .linkBox{
+						width: 100%;
+						height: 40px;
+						float: left;
+						margin-top: 5px;
+						/*background-color: #228;*/
+					}
+						#InfoPlatform_mainRight .creator .optionBox .detailBox .linkBox .header{
+							width: 33%;
+							height: inherit;
+							/*background-color: #992;*/
+							float: left;
+							line-height: 40px;
+							text-align: right;
+						}
+						#InfoPlatform_mainRight .creator .optionBox .detailBox .linkBox .body{
+							width: 67%;
+							height: inherit;
+							/*background-color: #996;*/
+							float: left;
+						}
+							#InfoPlatform_mainRight .creator .optionBox .detailBox .linkBox .body #linkBox_link{
+								width: 100%;
+								height: inherit;
+							}
+
+				#InfoPlatform_mainRight .creator .optionBox .controllerBox{
+					width: 20%;
+					height: 85px;
+					/*background-color: #677;*/
+					float: right;
+				}
+					#InfoPlatform_mainRight .creator .controllerBox button{
+						width: 88%;
+						margin-bottom: 5px;
+						margin-right: 10px;
+						height: 40px;
+						float: right;
+
+					}
+		#InfoPlatform_mainRight .entry_mark{
+			height: 40px;
+			line-height: 25px;
+			display: none;
+		}
+			#InfoPlatform_mainRight .entry_mark b {
+				color: red;
+			}
+
+		#InfoPlatform_mainRight .entry{
+			/*height: 399px;*/
+		}
+			#InfoPlatform_mainRight .entry table{
+				width: 100%;
+				height: 100%;
+				/*background-color: #225;*/
+			}
+				#InfoPlatform_mainRight .entry table .entry_top{
+					/*background-color: #522;*/
+					height: 1px;
+				}
+				#InfoPlatform_mainRight .entry table .entry_user{
+					width: 130px;
+					height: 130px;
+					vertical-align: top;
+				}
+					#InfoPlatform_mainRight .entry table .entry_user img{
+						width: 110px;
+						height: 110px;
+						margin: 5px 0 0 8px;
+					}
+
+				#InfoPlatform_mainRight .entry table .entry_contact{
+					vertical-align: bottom;
+					text-align: center;
+				}
+					#InfoPlatform_mainRight .entry table .entry_contact button{
+						width: 120px;
+						margin-bottom: 2px;
+					}
+
+				#InfoPlatform_mainRight .entry table .entry_main{
+					vertical-align: top;
+					padding-left: 5px;
+					border-left: solid #ccc 2px;
+				}
+					#InfoPlatform_mainRight .entry table .entry_main .contentBox{
+						width: 100%;
+						max-height: 110px;
+						overflow: hidden;
+						float: left;
+					}
+						#InfoPlatform_mainRight .entry table .entry_main .contentBox .username{
+							color: #333;
+							font-weight: bold;
+							padding-right: 10px;
+						}
+						#InfoPlatform_mainRight .entry table .entry_main .contentBox .text{
+							font-size: 16px;
+							/*height: 20px;*/
+						}
+					#InfoPlatform_mainRight .entry table .entry_main .moreBox {
+						width: 100%;
+						display: none;
+						float: left;
+						text-align: right;
+					}
+						#InfoPlatform_mainRight .entry table .entry_main .moreBox a{
+							color: #000;
+							text-decoration: none;
+						}
+						#InfoPlatform_mainRight .entry table .entry_main .moreBox a span:hover {
+							color: #9DFDFD;
+						}
+					#InfoPlatform_mainRight .entry table .entry_main .lineBox {
+						width: 100%;
+						float: left;
+						padding-bottom: 5px;
+						border-bottom: solid #ccc 2px;
+					}
+					#InfoPlatform_mainRight .entry table .entry_main .pictureBox{
+						width: 39%;
+						height: 150px;
+						/*background-color: #914;*/
+						float: right;
+						margin: 5px 5px 5px 0px;
+					}
+						#InfoPlatform_mainRight .entry table .entry_main .pictureBox img{
+							/*width: 100%;*/
+							/*height: 100%;*/
+							cursor: pointer;
+						}
+					#InfoPlatform_mainRight .entry table .entry_main .infoBox{
+						width: 60%;
+						/*height: 160px;*/
+						/*background-color: #114;*/
+						float: left;
+						padding: 5px 5px 0px 0px;
+					}
+					#InfoPlatform_mainRight .entry table .entry_main .infoBox ul{
+						width: 100%;
+						list-style: none;
+						padding: 0;
+						margin: 0;
+					}
+						#InfoPlatform_mainRight .entry table .entry_main .infoBox ul li{
+							width: 100%;
+							/*height: 25px;*/
+							margin-bottom: 5px;
+						}
+							#InfoPlatform_mainRight .entry table .entry_main .infoBox ul li .title{
+								color: #6699FF;
+								font-weight: bold;
+								padding-right: 20px;
+							}
+						#InfoPlatform_mainRight .entry table .entry_main .infoBox .infoTitle {
+							color: #F79B11;
+						}
+
+				#InfoPlatform_mainRight .entry table .entry_bottom{
+					/*background-color: #522;*/
+					height: 1px;
+				}
+
+/*
+	InfoPlatform_sms css
+*/
+	#InfoPlatform_sms {
+		width: 374px;
+		height: 484px;
+		border: solid 2px #ccc;
+		position: fixed;
+		right: 5px;
+		bottom: 33px;
+		z-index: 101;
+		background-color: #F9F9F9;
+		display: none;
+	}
+		#InfoPlatform_sms .header {
+			width: 370px;
+			height: 30px;
+			/*background-color: #F88B67;*/
+			border-bottom: solid 2px #ccc;
+		}
+			#InfoPlatform_sms .header .title {
+				height: 28px;
+				line-height: 30px;
+				margin-left: 5px;
+				/*background-color: #9FD09D;*/
+				float: left;
+			}
+			#InfoPlatform_sms .header .close {
+				height: 28px;
+				line-height: 30px;
+				/*background-color: #9FD09D;*/
+				float: right;
+			}
+				#InfoPlatform_sms .header .close span {
+					margin-top: 3px;
+				}
+		#InfoPlatform_sms .content {
+			width: 370px;
+			height: 295px;
+			margin-bottom: 5px;
+			overflow-x: auto;
+			padding: 3px;
+		}
+			#InfoPlatform_sms .content .to {
+				width: 344px;
+				display: inline-block;
+				/*background-color: #F07C44;*/
+			}
+				#InfoPlatform_sms .content .to .content_body {
+					max-width: 250px;
+					word-wrap: break-word;
+					border-radius: 5px;
+					padding: 3px;
+					border: solid 1px #DFE0DA;
+
+					display: inline-block;
+					margin-right: 5px;
+					margin-bottom: 10px;
+					float: right;
+					background-color: #A4F7A4;
+				}
+					#InfoPlatform_sms .content .to .content_body .time {
+						font-size: 4px;
+						color: #B2B2B2;
+					}
+					#InfoPlatform_sms .content .to .content_body .text {
+						font-size: 16px;
+					}
+				#InfoPlatform_sms .content .to .content_user_img {
+					width: 40px;
+					height: 40px;
+					float: right;
+					background-color: #40E37D;
+				}
+					#InfoPlatform_sms .content .to .content_user_img img {
+						width: inherit;
+						height: inherit;
+					}
+
+			#InfoPlatform_sms .content .from {
+				width: 344px;
+				display: inline-block;
+				
+				/*background-color: #F07C44;*/
+			}
+				#InfoPlatform_sms .content .from .content_body {
+					max-width: 250px;
+					word-wrap: break-word;
+					border-radius: 5px;
+					padding: 3px;
+					border: solid 1px #DFE0DA;
+
+					display: inline-block;
+					margin-left: 5px;
+					margin-bottom: 10px;
+					float: left;
+					background-color: #fff;
+				}
+					#InfoPlatform_sms .content .from .content_body .time {
+						font-size: 4px;
+						color: #B2B2B2;
+					}
+					#InfoPlatform_sms .content .from .content_body .text {
+						font-size: 16px;
+					}
+				#InfoPlatform_sms .content .from .content_user_img {
+					width: 40px;
+					height: 40px;
+					float: left;
+					background-color: #40E37D;
+				}
+					#InfoPlatform_sms .content .from .content_user_img img {
+						width: inherit;
+						height: inherit;
+					}
+
+		#InfoPlatform_sms .input {
+			width: 370px;
+			height: 100px;
+			/*background-color: #F569A8;*/
+		}
+			#InfoPlatform_sms .input textarea {
+				width: 364px;
+				margin-left: 3px;
+				height: 100px;
+			}
+		#InfoPlatform_sms .controller {
+			width: 370px;
+			height: 50px;
+			/*background-color: #F88B67;*/
+		}
+			#InfoPlatform_sms .controller .tips_1 {
+				height: 50px;
+				line-height: 50px;
+				margin-left: 5px;
+				/*background-color: #9FD09D;*/
+				float: left;
+			}
+			#InfoPlatform_sms .controller .tips_2 {
+				height: 50px;
+				line-height: 50px;
+				margin-left: 5px;
+				/*background-color: #9FD09D;*/
+				float: left;
+				display: none;
+			}
+				#InfoPlatform_sms .controller .tips_2 b {
+					color: red;
+				}
+			#InfoPlatform_sms .controller .submit {
+				height: 50px;
+				line-height: 50px;
+				/*background-color: #9FD09D;*/
+				float: right;
+				margin-right: 3px;
+			}
+				#InfoPlatform_sms .controller .submit button {
+					margin-top: 10px;
+					width: 80px;
+				}
+
+
+/*
+	InfoPlatform_smsRemind css
+*/
+	#InfoPlatform_smsRemind {
+		height: 30px;
+		/*border: solid 2px #ccc;*/
+		position: fixed;
+		right: 0px;
+		bottom: 0px;
+		z-index: 100;
+	}
+		#InfoPlatform_smsRemind ul {
+			list-style: none;
+			height: 30px;
+		}
+			#InfoPlatform_smsRemind ul li {
+				float: right;
+				height: 30px;
+				line-height: 30px;
+				padding: 0 10px 0 10px;
+				border-left: solid 2px #000;
+				cursor: pointer;
+				color: #fff;
+			}
+			#InfoPlatform_smsRemind ul li:hover {
+				color: #F0B80F;
+				background-color: #fff;
+			}
+			#InfoPlatform_smsRemind ul .clicked {
+				color: #F0B80F;
+				background-color: #fff;
+			}
+				#InfoPlatform_smsRemind ul li .badge {
+					color: #E80000
+				}
+				#InfoPlatform_smsRemind ul li .glyphicon {
+					font-size: 12px;
+				}

@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>易易网 分类信息平台</title>
+		<!-- Path to Framework7 Library CSS-->
+		<link rel="stylesheet" href="/Public/Mobile/css/framework7.min.css">
+		<!-- Path to your custom app styles-->
+		<link rel="stylesheet" href="/Public/Common/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/Public/Mobile/css/f7me.css">
+		<link rel="stylesheet" href="/Public/Mobile/css/creator.css">
+	</head>
+
+
+	<body>
+		<!-- Status bar overlay for fullscreen mode-->
+		<div class="statusbar-overlay"></div>
+		<!-- Panels overlay-->
+		<div class="panel-overlay"></div>
+		<!-- Left panel with reveal effect-->
+		<div class="panel panel-left panel-cover bg-white">
+
+			<div class="list-block">
+				<div class="list-group">
+					<ul>
+						<li class="loginBox">
+							<a href="" class="loginBox_controll open-login-screen">
+								<div class="item-content">
+									<div class="item-inner">
+
+										<div class="item-title"><i class="icon-plus-sign"></i> 请登录 </div>
+										<div class="userinfo">
+											<div class="userimg">
+												<img src="" alt="">
+											</div>
+											<div class="username"></div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+
+					</ul>
+				</div>
+				<div class="list-group categoryGroup">
+					<ul>
+						<li>
+							<a href="" class="">
+								<div class="item-content">
+									<div class="item-inner"><div class="item-title">全部</div></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="" class="item-link open-panel" data-panel="right" >
+								<div class="item-content"> 
+									<div class="item-inner"><div class="item-title">物品交易</div></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="" class="item-link open-panel" data-panel="right">
+								<div class="item-content"> 
+									<div class="item-inner"><div class="item-title">校园信息</div></div>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- Right panel with cover effect-->
+		<div class="panel panel-right panel-cover bg-white">
+			<div class="content-block">
+				<!-- <div class="content-block-inner"> -->
+					<p>物品交易</p>
+				<!-- </div> -->
+			</div>
+			<div class="list-block">
+				<div class="list-group">
+					<ul>
+						<!-- <li>
+							<a href="" class="">
+								<div class="item-content">
+									<div class="item-inner"><div class="item-title">全部</div><span class="badge bg-yellow">115</span></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="" class="">
+								<div class="item-content">
+									<div class="item-inner"><div class="item-title">图书杂志</div><span class="badge bg-yellow">5</span></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="services.html" class="open-panel" data-panel="right" >
+								<div class="item-content"> 
+									<div class="item-inner"><div class="item-title">电子产品</div><span class="badge bg-yellow">5</span></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="form.html" class="open-panel" data-panel="right">
+								<div class="item-content"> 
+									<div class="item-inner"><div class="item-title">单车</div><span class="badge bg-yellow">5</span></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="form.html" class="open-panel" data-panel="right">
+								<div class="item-content"> 
+									<div class="item-inner"><div class="item-title">运动物品</div><span class="badge bg-yellow">0</span></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="form.html" class="open-panel" data-panel="right">
+								<div class="item-content"> 
+									<div class="item-inner"><div class="item-title">音乐CD</div><span class="badge bg-yellow">1115</span></div>
+								</div>
+							</a>
+						</li> -->
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<!-- Views-->
+		<div class="views theme-orange">
+			<!-- Your main view, should have "view-main" class-->
+			<div class="view view-main">
+				<!-- Top Navbar-->
+				<div class="navbar">
+					<!-- index page navbar -->
+					<div class="navbar-inner" data-page="index">
+						<div class="left">
+							<a href="#" class="link icon-only open-panel"> 
+								<i class="icon-align-left"></i>
+								<!-- <span>返回</span> -->
+							</a>
+						</div>
+						<div class="center sliding">易易网 分类信息平台</div>
+					</div>
+					<!-- detail page navbar -->
+					<div class="navbar-inner cached" data-page="detail">
+						<div class="left">
+							<a href="#" class="back link">
+								<i class="icon-chevron-left"></i>
+								<!-- <span>返回</span> -->
+							</a>
+						</div>
+
+						<div class="center sliding">信息详情</div>
+					</div>
+				</div>
+				<!-- Bottom Toolbar-->
+				<div class="toolbar tabbar">
+					<div class="toolbar-inner">
+						<a href="#index" class="link active">
+							<i class="icon-reorder icon-2x">
+								<!-- <span class="badge bg-red">5</span> -->
+							</i>
+							<!-- <span class="tabbar-label">列表</span> -->
+						</a>
+						<a href="/Home/Index/creator_moblie_page/" class="link">
+							<i class="icon-plus-sign-alt icon-2x"></i>
+							<!-- <span class="tabbar-label">发布</span> -->
+						</a>
+						<a href="/Home/Setup/" class="link">
+							<i class="icon-cog icon-2x"></i>
+							<!-- <span class="tabbar-label">设置</span> -->
+						</a>
+						<!-- <a href="/Home/About/aboutus" class="link">
+							<i class="icon-info-sign icon-2x"></i>
+						</a> -->
+					</div>
+				</div>
+				<!-- Pages-->
+				<!-- Index page -->
+				<div class="pages navbar-through toolbar-through">
+
+					<!-- Page, data-page contains page name主页-->
+					<div class="page page_index" data-page="index">
+					<!-- Scrollable page content-->
+						<div class="page-content infinite-scroll pull-to-refresh-content">
+							<!-- 默认的下拉刷新层 -->
+							<div class="pull-to-refresh-layer">
+								<div class="preloader"></div>
+								<div class="pull-to-refresh-arrow"></div>
+							</div>
+							<div class="list-block">
+								<ul>
+									
+								</ul>
+							</div>
+							<!-- 加载提示符 -->
+							<div class="infinite-scroll-preloader" style="display: none;">
+								<div class="preloader"></div>
+							</div>
+						</div>
+					</div>
+					<!-- detail page -->
+					<div class="page cached page_detail" data-page="detail">
+						<div class="page-content">
+							<div class="list-block block_main">
+								<ul>
+									<li data-id="41" class="item-content info_entry">
+										<div class="item-inner">
+											<div class="entry_header">
+												<div class="avatar">
+													<img data-avatarid="01" src="">
+												</div>
+												<div class="detail">
+													<p class="username"></p>
+													<p data-time="" class="time_created"><!-- 2014-07-07 13:03 --></p>
+												</div>
+											</div>
+											<div class="entry_content">
+												<div class="item-title">
+													<b><!-- Lorem ipsum dolor sit amet. --></b>
+												</div>
+												<div class="item-subtitle">
+													<div></div>
+												</div>
+												<div class="item-media">
+													<img src="">
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="list-block block_contact">
+								<ul>
+									<li class="item-content price">
+										<div class="item-media">
+											<i class="icon-shopping-cart icon-large"></i>
+											<div class="item-title label">物品价格</div>
+										</div>
+										<div class="item-inner text">
+											<!-- 50 --> 元
+										</div>
+									</li>
+											
+									<li class="item-content time">
+										<div class="item-media">
+											<i class="icon-time icon-large"></i>
+											<div class="item-title label">发布日期</div>
+										</div>
+										<div class="item-inner text">
+											
+										</div>
+									</li>
+									<li class="item-content category">
+										<div class="item-media">
+											<i class="icon-columns icon-large"></i>
+											<div class="item-title label">栏目分类</div>
+										</div>
+										<div class="item-inner text">
+											
+										</div>
+									</li>
+									<li class="item-content link">
+										<div class="item-media">
+											<i class="icon-globe icon-large"></i>
+											<div class="item-title label">相关链接</div>
+										</div>
+										<div class="item-inner text">
+											<a href=""></a>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="list-block block_contact">
+								<ul>
+									<li class="item-content">
+										<div class="item-media">
+											<i class="icon-envelope-alt icon-large"></i>
+											<div class="item-title label">email</div>
+										</div>
+										<div class="item-inner text">
+											<div class="item-input">
+												<input type="text" name="email" placeholder="Your email">
+											</div>
+										</div>
+										<div class="item_addition">
+											<input type="checkbox">
+										</div>
+									</li>
+									<li class="item-content">
+										<div class="item-media">
+											<i class="icon-phone-sign icon-large"></i>
+											<div class="item-title label">手机号码</div>
+										</div>
+										<div class="item-inner text">
+											<div class="item-input">
+												<input type="text" name="mobileNumber" placeholder="Your phone">
+											</div>
+										</div>
+										<div class="item_addition">
+											<input type="checkbox">
+										</div>
+									</li>
+
+								</ul>
+							</div>
+
+							<div class="list-block block_contact ">
+								<ul>
+									<li class="item-content">
+										<div class="item-media">
+											<i class="icon-user icon-large"></i>
+											<div class="item-title label">姓名</div>
+										</div>
+										<div class="item-inner text">
+											<div class="item-input">
+												<input type="text" name="realname" placeholder="Your name">
+											</div>
+										</div>
+										<div class="item_addition">
+											<input type="checkbox">
+										</div>
+									</li>
+									<li class="item-content">
+										<div class="item-media">
+											<i class="icon-phone icon-large"></i>
+											<div class="item-title label">手机短号</div>
+										</div>
+										<div class="item-inner text">
+											<div class="item-input">
+												<input type="text" name="mobileNumber_short" placeholder="Your shot phone number">
+											</div>
+										</div>
+										<div class="item_addition">
+											<input type="checkbox">
+										</div>
+									</li>
+									<li class="item-content">
+										<div class="item-media">
+											<i class="icon-comment-alt icon-large"></i>
+											<div class="item-title label">qq号码</div>
+										</div>
+										<div class="item-inner text">
+											<div class="item-input">
+												<input type="text" name="qq" placeholder="Your QQ">
+											</div>
+										</div>
+										<div class="item_addition">
+											<input type="checkbox">
+										</div>
+									</li>
+									<li class="item-content">
+										<div class="item-media">
+											<i class="icon-comments-alt icon-large"></i>
+											<div class="item-title label">微信号码</div>
+										</div>
+										<div class="item-inner text">
+											<div class="item-input">
+												<input type="text" name="weixin" placeholder="Your wechat">
+											</div>
+										</div>
+										<div class="item_addition">
+											<input type="checkbox">
+										</div>
+									</li>
+									<li class="item-content">
+										<div class="item-media">
+											<i class="icon-group icon-large"></i>
+											<div class="item-title label">微博网址</div>
+										</div>
+										<div class="item-inner text">
+											<div class="item-input">
+												<input type="text" name="weibo" placeholder="Your weibo">
+											</div>
+										</div>
+										<div class="item_addition">
+											<input type="checkbox">
+										</div>
+									</li>
+									<li class="item-content">
+										<div class="item-media">
+											<i class="icon-file-alt icon-large"></i>
+											<div class="item-title label">备注事项</div>
+										</div>
+										<div class="item-inner text">
+											<div class="item-input">
+												<input type="text" name="notes" placeholder="Your notes">
+											</div>
+										</div>
+										<div class="item_addition">
+											<input type="checkbox">
+										</div>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+
+					</div>
+
+				
+
+
+				
+			</div>
+		</div>
+		<!-- login screen 登录-->
+		<div class="login-screen">
+			<div class="view">
+				<div class="page">
+					<div class="page-content login-screen-content">
+						<div class="login-screen-title">欢迎回来 易易网</div>
+						<form>
+							<div class="list-block">
+								<ul>
+									<li class="item-content">
+										<div class="item-inner">
+											<div class="item-title label">email</div>
+											<div class="item-input">
+												<input type="text" name="email" placeholder="Your email">
+											</div>
+										</div>
+									</li>
+									<li class="item-content">
+										<div class="item-inner">
+											<div class="item-title label">密码</div>
+											<div class="item-input">
+												<input type="password" name="password" placeholder="Your password">
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="list-block inset buttonList">
+								<ul>
+									<li>
+										<a href="#" class="button button-big  button-round loginButton">登录</a>
+									</li>
+									<li>
+										<a href="#" class="button button-big  button-round close-login-screen">取消</a>
+									</li>
+								</ul>
+								<!-- <div class="list-block-label">
+									<p>吧啦吧啦~</p>
+									<p><a href="#" class="close-login-screen">关闭登录框</a></p>
+								</div> -->
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- Path to Framework7 Library JS-->
+	<script type="text/javascript" src="/Public/Mobile/js/framework7.min.js"></script>
+	<!-- Path to my app js-->
+	<script type="text/javascript" src="/Public/Mobile/js/my-app.js"></script>
+	<script type="text/javascript" src="/Public/Mobile/js/creator.js"></script>
+	</body>
+</html>

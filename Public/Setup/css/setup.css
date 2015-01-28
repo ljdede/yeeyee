@@ -1,0 +1,105 @@
+/*
+	InfoPlatform_mainLeft css
+*/
+	#InfoPlatform_mainLeft{
+	}
+		#InfoPlatform_mainLeft #welcomePanel{
+			width: 100%;
+			/*height: 200px;*/
+			padding: 5px;
+			border: solid #000 1px;
+		}
+			#InfoPlatform_mainLeft #welcomePanel .userBox{
+				width: 100%;
+				height: 80px;
+				/*background-color: #991;*/
+				margin-bottom: 5px;
+			}
+				#InfoPlatform_mainLeft #welcomePanel .userBox .userImg{
+						width: 80px;
+						height: 80px;
+						/*background-color: #836;*/
+						float: left;
+					}
+						#InfoPlatform_mainLeft #welcomePanel .userBox .userImg img{
+							width: 100%;
+							height: 100%;
+						}
+						#InfoPlatform_mainLeft #welcomePanel .userBox .userName{
+							width: 74%;
+							height: 55px;
+							/*background-color: #631;*/
+							float: left;
+							line-height: 57px;
+							color: #333;
+							font-weight: bold;
+							font-size: 20px;
+							margin-left: 5px;
+						}
+						#InfoPlatform_mainLeft #welcomePanel .userBox .userMessage{
+							width: 25%;
+							height: 25px;
+							/*background-color: #231;*/
+							float: left;
+							line-height: 25px;
+							margin-left: 5px;
+						}
+							#InfoPlatform_mainLeft #welcomePanel .userBox .userMessage span{
+								margin-top: 4px;
+								cursor: pointer;
+							}
+			#InfoPlatform_mainLeft #welcomePanel .detailBox{
+				width: 100%;
+				/*height: 250px;*/
+				/*background-color: #191;*/
+				border-top: solid #ccc 2px;
+				padding: 5px 0 0 0;
+			}
+				#InfoPlatform_mainLeft #welcomePanel .detailBox ul{
+						width: 100%;
+						list-style: none;
+						padding: 0;
+						margin: 0;
+					}
+						#InfoPlatform_mainLeft #welcomePanel .detailBox ul li{
+							width: 100%;
+							height: 25px;
+						}
+							#InfoPlatform_mainLeft #welcomePanel .detailBox ul li .title{
+								color: #333;
+								font-weight: bold;
+								padding-right: 20px;
+							}
+
+
+/*
+	InfoPlatform_mainRight css
+*/
+	#InfoPlatform_mainRight{
+	}
+		#InfoPlatform_mainRight .settingTabs{
+			width: 100%;
+			/*height: 200px;*/
+			padding: 25px 5px 25px 5px;
+			border: solid #000 1px;
+		}
+		#InfoPlatform_mainRight .settingTabs .alertShadow{
+			box-shadow: 0 0 8px rgba(191, 84, 46, 1);
+		}
+			#InfoPlatform_mainRight .settingTabs .tab-content .tab-pane{
+				margin: 25px 50px 0px 50px;
+			}
+				#InfoPlatform_mainRight .settingTabs .tab-content .tab-pane .input-group{
+					margin-bottom: 10px;
+				}
+				#InfoPlatform_mainRight .settingTabs .tab-content .tab-pane .controller{
+					width: 100%;
+					margin: 10px 0 0 0;
+					text-align: right;
+				}
+			#InfoPlatform_mainRight .settingTabs .alert{
+				margin: 10px 0 0 7%;
+				width: 85%;
+				display: none;
+				/*margin-top: 10px;*/
+			}

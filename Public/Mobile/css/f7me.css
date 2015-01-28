@@ -1,0 +1,221 @@
+
+.panel-left {
+}
+	.panel-left .list-block {
+	}
+		.panel-left .list-block .loginBox .item-title {
+			color: #F79B11;
+			padding: 15px 0 15px 0;
+		}
+		.panel-left .list-block .loginBox .userinfo {
+			display: none;
+			padding: 15px 0 15px 0;
+		}
+			.panel-left .list-block .loginBox .userinfo .userimg {
+				float: left;
+				height: 30px;
+			}
+				.panel-left .list-block .loginBox .userinfo .userimg img {
+					width: 30px;
+					height: 30px;
+				}
+			.panel-left .list-block .loginBox .userinfo .username {
+				float: left;
+				height: 30px;
+				line-height: 30px;
+				margin-left: 10px;
+				color: #F79B11;
+				/* width: 200px; */
+			}
+
+		.panel-left .list-block .catagoryGroup {
+		}
+			.panel-left .list-block .catagoryGroup ul {
+			}
+				.panel-left .list-block .catagoryGroup ul li a {
+					color: #000;
+				}
+
+.panel-right {
+}
+	.panel-right .list-block {
+	}
+		.panel-right .list-block .list-group {
+		}
+			.panel-right .list-block .list-group ul {
+			}
+				.panel-right .list-block .list-group ul li a {
+					color: #000;
+				}
+
+
+.views {
+
+}
+	.views .pages .page-content {
+		padding-top: 20px;
+	}
+
+		/****************/
+		.views .pages .page_index .page-content .list-block ul, .views .pages .page_detail .block_main ul, .views .pages .page_detail .block_contact ul  {
+			background-color: transparent;
+			border: 0;
+		}
+			.views .pages .page-content .list-block .info_entry, .views .pages .page_detail .block_main .info_entry {
+				margin: 10px 10px 10px 10px;
+				background-color: #fff;
+			}
+				.views .pages .page_index .page-content .list-block .info_entry .item-inner, .views .pages .page_detail .block_main .info_entry .item-inner {
+					border: 0;
+					display: block;
+				}
+					.views .pages .page_index .page-content .list-block .info_entry .item-inner .entry_header, .views .pages .page_detail .block_main .info_entry .item-inner .entry_header {
+						display: block;
+						overflow: hidden;
+						padding-bottom: 5px;
+						border-bottom: solid 1px #f0f0f0;
+					}
+
+						.views .pages .page_index .page-content .list-block .info_entry .item-inner .entry_header .avatar, .views .pages .page_detail .block_main .info_entry .item-inner .entry_header .avatar {
+							float: left;
+							width: 30px;
+							height: 30px;
+							/*background-color: #0C4505;*/
+							display: block;
+						}
+							.views .pages .page_index .page-content .list-block .info_entry .item-inner .entry_header .avatar img, .views .pages .page_detail .block_main .info_entry .item-inner .entry_header .avatar img {
+								width: 30px;
+								height: 30px;
+							}
+						.views .pages .page_index .page-content .list-block .info_entry .item-inner .entry_header .detail, .views .pages .page_detail .block_main .info_entry .item-inner .entry_header .detail {
+							float: left;
+							display: block;
+							margin-left: 10px;
+							/*background-color: #473003*/
+						}
+							.views .pages .page_index .page-content .list-block .info_entry .item-inner .entry_header .detail p, .views .pages .page_detail .block_main .info_entry .item-inner .entry_header .detail p {
+								height: 15px;
+								line-height: 15px;
+								display: block;
+								font-size: 10px;
+								margin: 0;
+								padding: 0;
+							}
+							.views .pages .page_index .page-content .list-block .info_entry .item-inner .entry_header .detail .username, .views .pages .page_detail .block_main .info_entry .item-inner .entry_header .detail .username {
+								
+							}
+							.views .pages .page_index .page-content .list-block .info_entry .item-inner .entry_header .detail .time_created, .views .pages .page_detail .block_main .info_entry .item-inner .entry_header .detail .time_created {
+								color: #ccc;
+							}
+
+
+					.views .pages .page_index .page-content .list-block .info_entry .item-inner .entry_content, .views .pages .page_detail .block_main .info_entry .item-inner .entry_content {
+						display: block;
+					}
+						.views .pages .page_index .page-content .list-block .info_entry .item-inner .entry_content .item-title, .views .pages .page_detail .block_main .info_entry .item-inner .entry_content .item-title {
+							display: block;
+							padding-top: 5px;
+						}
+							.views .pages .page_index .page-content .list-block .info_entry .item-inner .entry_content .item-title b, .views .pages .page_detail .block_main .info_entry .item-inner .entry_content .item-title b {
+								color: #F79B11;
+								font-weight: normal;
+							}
+						.views .pages .page_index .page-content .list-block .info_entry .item-inner .entry_content .item-subtitle, .views .pages .page_detail .block_main .info_entry .item-inner .entry_content .item-subtitle {
+							display: block;
+							white-space: normal;
+							padding-bottom: 5px;
+						}
+							.views .pages .page_index .page-content .list-block .info_entry .item-inner .entry_content .item-media img, .views .pages .page_detail .block_main .info_entry .item-inner .entry_content .item-media img {
+								width: 80px;
+							}
+						.views .pages .page_index .page-content .list-block .info_entry .item-inner .entry_content .item-contact {
+							display: block;
+							border-top: solid 1px #f0f0f0;
+							padding-top: 5px;
+						}
+							.views .pages .page_index .page-content .list-block .info_entry .item-inner .entry_content .item-contact .price {
+								display: inline-block;
+								float: left;
+								font-size: 12px;
+							}
+								.views .pages .page_index .page-content .list-block .info_entry .item-inner .entry_content .item-contact .price b {
+									color: #F79B11;
+								}
+							.views .pages .page_index .page-content .list-block .info_entry .item-inner .entry_content .item-contact .contact {
+								display: inline-block;
+								float: right;
+								font-size: 12px;
+							}
+
+	.views .pages .page_detail {
+
+	}
+		.views .pages .page_detail .block_main  {
+			margin-bottom: 0px;
+		}
+			
+		.views .pages .page_detail .block_contact{
+			margin-top: 0px;
+			margin-bottom: 10px;
+		}
+			.views .pages .page_detail .block_contact .item-content {
+				margin: 0px 10px 0px 10px;
+				background-color: #fff;	
+			}
+				.views .pages .page_detail .block_contact .item-content .item-media {
+					width: 89px;
+				}
+					.views .pages .page_detail .block_contact .item-content .item-media i {
+						height: 25px;
+						line-height: 24px;
+						font-size: 14px;
+					}
+					.views .pages .page_detail .block_contact .item-content .item-media .item-title {
+						display: inline-block;
+						width: 60px;
+						font-size: 14px;
+						margin-left: 5px;
+					}
+				.views .pages .page_detail .block_contact .item-content .text {
+					border: 0;
+					display: block;
+					font-size: 14px;
+					line-height: 44px;
+					padding: 0;
+				}
+					.views .pages .page_detail .block_contact .item-content .text .item-input {
+						margin-top: 0;
+					}
+				.views .pages .page_detail .block_contact .item-content .item_addition {
+					width: 50px;
+				}
+					.views .pages .page_detail .block_contact .item-content .item_addition input {
+						width: 20px;
+						height: 20px;
+					}
+
+
+
+	.infinite-scroll-preloader {
+		margin-top:-20px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.infinite-scroll-preloader .preloader {
+		width:34px;
+		height:34px;
+	}
+
+
+	.views .login-screen-content {}
+		.views .login-screen-content .list-block {
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+			.views .login-screen-content .buttonList  ul {
+				/*background-color: #fff;*/
+			}
+			.views .login-screen-content .buttonList  ul li {
+				margin-bottom: -1px;
+				/*background-color: #fff;*/
+			}
